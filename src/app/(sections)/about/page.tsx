@@ -1,9 +1,10 @@
 import Contact from "@/components/Contact";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import Projects from "../@projects/page";
+
 
 export default function AboutPage() {
   return (
