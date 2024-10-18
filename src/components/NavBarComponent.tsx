@@ -2,7 +2,7 @@ import { NavBarItem } from "./NavBarItems";
 
 
 const navBarItems = [
-  { path: "#skills-about", title: " Acerca de Mí" },
+  { path: "#about-section", title: " Acerca de Mí" },
   { path: "#skills-section", title: "Skills" },
   { path: "#projects-section", title: "Proyectos" },
   { path: "#contact-section", title: "Contacto" },

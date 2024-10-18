@@ -13,18 +13,14 @@ export default function Skills() {
       <div className="flex flex-wrap gap-5 justify-center py-8">
         <div className="flex flex-col items-center">
           <div className="w-24 flex justify-center items-center border-2 border-lightPink rounded py-2">
-            <Link href="" target="_blanck">
               <FaHtml5 size={64} className="text-brown" />
-            </Link>
           </div>
           <p className="text-xl text-darkRose font-bold">HTML5</p>
         </div>
 
         <div className="flex flex-col items-center">
           <div className="w-24 flex justify-center items-center border-2 border-lightPink rounded py-2">
-            <Link href="" target="_blanck">
               <FaCss3Alt size={64} className="text-brown" />
-            </Link>
           </div>
           <p className="text-xl text-darkRose font-bold">CSS</p>
         </div>
