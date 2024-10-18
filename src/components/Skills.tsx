@@ -6,7 +6,7 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 export default function Skills() {
   return (
-    <div className="container mx-auto my-11">
+    <div className="container mx-auto my-11 pt-24">
       <h2 className="text-4xl text-dark font-bold text-center">
         Software Skills
       </h2>

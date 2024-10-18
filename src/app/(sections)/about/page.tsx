@@ -9,22 +9,22 @@ export default function AboutPage() {
   return (
     <div>
       <section
-        id="skills-about"
-        className="container mx-auto px-4 items-center md:flex md:justify-around"
+        id="about-section"
+        className="container mx-auto px-4 pt-40 items-center md:flex md:justify-around"
       >
         <div className="container flex flex-col gap-4 md:w-1/2">
-          <h1 className="text-8xl text-dark font-semibold py-9">
+          <h1 className="text-8xl text-dark font-semibold pt-9">
             Hola, Soy Daniela
           </h1>
-          <h2 className="text-xl text-darkRose font-bold md:text-2xl">
+          <h2 className="text-3xl text-darkRose font-bold md:text-2xl">
             Desarrolladora Front-End
           </h2>
-          <p className="text-base text-brown md:text-xl">
+          <p className="text-base text-brown text-justify pb-5 md:text-xl">
             Apasionada por crear experiencias de usuario atractivas y
             funcionales, mi enfoque colaborativo y proactivo me ha permitido
             trabajar estrechamente con las personas.
           </p>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 pb-5">
             <Link
               href="https://www.linkedin.com/in/daniela0393h/"
               target="_blanck"

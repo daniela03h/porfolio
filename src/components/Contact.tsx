@@ -4,7 +4,7 @@ import FormContact from "./FormContact";
 
 export default function Contact() {
   return (
-    <div className="container mx-auto my-11">
+    <div className="container mx-auto my-11 pt-20">
       <h2 className="text-4xl text-dark font-bold text-center">Contacto</h2>
       <div className="p-5 md:flex md:justify-between">
         <div className="flex flex-col gap-4 p-6 justify-center">

@@ -5,11 +5,11 @@ import { RiNextjsFill } from "react-icons/ri";
 
 export default function Projects() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pt-20">
       <h2 className="text-4xl text-dark font-bold text-center">Proyectos</h2>
 
       <div className="container mx-auto flex flex-wrap my-5">
-        <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5">
+        <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
           <Link href="https://parking-now.vercel.app/" target="_blanck">
             <Image
               src="https://i.pinimg.com/originals/6b/b3/4d/6bb34d037ad77b2097cb9712bf543cd2.jpg"
@@ -24,7 +24,7 @@ export default function Projects() {
             <h4 className="text-2xl text-darkRose font-bold text-center">
               Parking Now
             </h4>
-            <p className="text-xl text-dark font-semibold text-justify">
+            <p className="text-xl text-brown text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
               animi odio consequatur praesentium, quis esse nulla dolor
               perferendis neque corrupti fugit ab ad facilis, cupiditate
@@ -37,12 +37,12 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5">
+        <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
           <div className="flex flex-col gap-5 my-5 md:w-1/2">
             <h4 className="text-2xl text-darkRose font-bold text-center">
               Parking Now
             </h4>
-            <p className="text-xl text-dark font-semibold text-justify">
+            <p className="text-xl text-brown text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
               animi odio consequatur praesentium, quis esse nulla dolor
               perferendis neque corrupti fugit ab ad facilis, cupiditate

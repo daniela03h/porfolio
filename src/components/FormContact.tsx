@@ -4,7 +4,7 @@ import TextArea from "./ui/TextArea";
 
 export default function FormContact() {
   return (
-    <form>
+    <form className="flex flex-col gap-4">
       <Input
         type="text"
         name="name"
