@@ -26,7 +26,7 @@ export default function FormContact() {
         className="mt-1 w-full p-2 border border-dark rounded-md"
       />
       <TextArea id="textAreaMsns" label="Mensaje" name="message" className="mt-1 w-full p-2 border border-dark rounded-md"/>
-      <Button className="mt-4 w-full bg-darkRose text-dark font-bold py-2 px-4 rounded hover:bg-darkRose/80">
+      <Button className="mt-4 w-full bg-darkRose text-dark text-lg font-bold py-2 px-4 rounded hover:bg-darkRose/80">
         Enviar
       </Button>
     </form>
