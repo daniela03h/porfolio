@@ -8,7 +8,7 @@ import { SiStyledcomponents } from "react-icons/si";
 export default function Projects() {
   return (
     <div className="container mx-auto pt-20">
-      <h2 className="text-4xl text-dark font-bold text-center">Proyectos</h2>
+      <h2 className="text-4xl text-dark font-bold m-5 md:text-center">Proyectos</h2>
 
       <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
         <div className="flex flex-col gap-5 my-5 md:w-1/2">
@@ -46,7 +46,6 @@ export default function Projects() {
               alt="img"
               width={400}
               height={250}
-              // className="border border-red-600"
             ></Image>
           </Link>
 
@@ -96,7 +95,6 @@ export default function Projects() {
               alt="img"
               width={400}
               height={250}
-              // className=""
             ></Image>
           </Link>
         </div>
@@ -111,7 +109,6 @@ export default function Projects() {
               alt="img"
               width={400}
               height={250}
-              // className="border border-red-600"
             ></Image>
           </Link>
 
@@ -161,7 +158,6 @@ export default function Projects() {
               alt="img"
               width={400}
               height={250}
-              // className=""
             ></Image>
           </Link>
         </div>
