@@ -1,16 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaSass } from "react-icons/fa6";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiStyledcomponents } from "react-icons/si";
 
 export default function Projects() {
   return (
     <div className="container mx-auto pt-20">
-      <h2 className="text-4xl text-dark font-bold m-5 md:text-center">Proyectos</h2>
+      <h2 className="text-4xl text-dark font-bold m-5 md:text-center">
+        Proyectos
+      </h2>
 
-      <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
+      {/* <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
         <div className="flex flex-col gap-5 my-5 md:w-1/2">
           <h4 className="text-2xl text-darkRose font-bold text-center">
             To Do-List
@@ -33,10 +35,9 @@ export default function Projects() {
             alt="img"
             width={400}
             height={250}
-            // className="border border-red-600"
           ></Image>
         </Link>
-      </div>
+      </div> */}
 
       <div className="container mx-auto flex flex-wrap my-5">
         <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
@@ -99,48 +100,44 @@ export default function Projects() {
           </Link>
         </div>
 
-        <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
-          <Link
-            href="https://daniela03h.github.io/countries-explorer/"
-            target="_blanck"
-          >
-            <Image
-              src="/img/countries-explorer.jpg"
-              alt="img"
-              width={400}
-              height={250}
-            ></Image>
-          </Link>
-
-          <div className="flex flex-col gap-5 my-5 md:w-1/2">
+        <div className="w-full flex flex-col md:flex-row mb-20">
+          <div className="container w-auto flex flex-col gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none md:w-1/2">
             <h4 className="text-2xl text-darkRose font-bold text-center">
               Countries Explorer
             </h4>
-            <p className="text-xl text-brown text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ut
-              nostrum delectus eum similique culpa a ipsa vero laboriosam, ullam
-              ratione officiis error accusantium distinctio iusto vel numquam
-              beatae veniam?
-            </p>
+            <Link
+              href="https://daniela03h.github.io/countries-explorer/"
+              target="_blanck"
+            >
+              <Image
+                src="/img/countries-explorer.jpg"
+                alt="img"
+                width={400}
+                height={250}
+              ></Image>
+            </Link>
             <div className="flex gap-2 justify-end">
               <FaHtml5 size={32} className="text-brown" />
               <FaCss3Alt size={32} className="text-brown" />
               <IoLogoJavascript size={32} className="text-brown" />
             </div>
           </div>
-        </div>
 
-        <div className="container w-auto flex flex-wrap gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none">
-          <div className="flex flex-col gap-5 my-5 md:w-1/2">
+          <div className="container w-auto flex flex-col gap-4 justify-center items-center border-2 border-lightPink rounded m-5 p-2 md:border-none md:w-1/2">
             <h4 className="text-2xl text-darkRose font-bold text-center">
               Social-media-dashboard
             </h4>
-            <p className="text-xl text-brown text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              distinctio illum sunt corporis quos magnam error possimus eius
-              facilis provident similique, nemo corrupti ullam quas minus
-              architecto quia exercitationem. Praesentium.
-            </p>
+            <Link
+              href="https://daniela03h.github.io/social-media-dashboard/"
+              target="_blanck"
+            >
+              <Image
+                src="/img/social-media-dashboard.jpg"
+                alt="img"
+                width={400}
+                height={250}
+              ></Image>
+            </Link>
             <div className="flex gap-2 justify-end">
               <FaHtml5 size={32} className="text-brown" />
               <FaCss3Alt size={32} className="text-brown" />
@@ -149,17 +146,6 @@ export default function Projects() {
               <FaSass size={32} className="text-brown" />
             </div>
           </div>
-          <Link
-            href="https://daniela03h.github.io/social-media-dashboard/"
-            target="_blanck"
-          >
-            <Image
-              src="/img/social-media-dashboard.jpg"
-              alt="img"
-              width={400}
-              height={250}
-            ></Image>
-          </Link>
         </div>
       </div>
     </div>
