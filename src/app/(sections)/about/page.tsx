@@ -4,7 +4,7 @@ import Skills from "@/components/Skills";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-
+import { MdEmail } from "react-icons/md";
 
 export default function AboutPage() {
   return (
@@ -36,10 +36,13 @@ export default function AboutPage() {
               <FaGithub size={36} className="text-brown" />
             </Link>
             <Link
-              href="https://web.whatsapp.com/+573162777170"
+              href="https://wa.me/+573162777179?text='Hola Daniela'"
               target="_blanck"
             >
               <FaWhatsapp size={36} className="text-brown" />
+            </Link>
+            <Link href="mailto:daniela0393h@gmail.com" target="_blanck">
+              <MdEmail size={36} className="text-brown" />
             </Link>
           </div>
         </div>
