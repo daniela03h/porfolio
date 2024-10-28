@@ -9,10 +9,10 @@ const Footer = () => {
       </p>
       <div className="flex flex-col items-center gap-3 md:flex-row">
         <div className="flex gap-1 justify-center">
-          <Link href="https://web.whatsapp.com/" target="_blanck">
+          <Link href="https://wa.me/+573162777179?text='Hola Daniela'" target="_blanck">
             <FaWhatsapp size={32} className="text-brown" />
           </Link>
-          <Link href="https://www.instagram.com/" target="_blanck">
+          <Link href="https://instagram.com/" target="_blanck">
             <FaInstagram size={32} className="text-brown" />
           </Link>
         </div>
